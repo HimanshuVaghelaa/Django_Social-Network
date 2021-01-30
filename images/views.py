@@ -6,7 +6,7 @@ from django.http import JsonResponse
 from django.views.decorators.http import require_POST
 from django.http import HttpResponse
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from bookmarks.common.decorators import ajax_required
+from common.decorators import ajax_required
 from .forms import ImageCreateForm
 from .models import Image
 
